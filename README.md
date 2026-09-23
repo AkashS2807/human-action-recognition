@@ -22,7 +22,7 @@ The main objective is to compare:
 2. A pretrained ResNet18 using transfer learning
 3. A pretrained Vision Transformer (ViT)
 
-The best-performing model can then be used through the Streamlit web application.
+The Streamlit application allows users to select a trained model, upload an image, and view the predicted action along with confidence scores and top-3 predictions.
 
 ---
 
@@ -38,7 +38,7 @@ A pretrained ResNet18 model using ImageNet weights. The final classification lay
 
 ### 3. Vision Transformer
 
-A pretrained ViT-Base/16 model used for image-based action classification.
+A pretrained ViT-Tiny model used for image-based action classification.
 
 ---
 
@@ -106,8 +106,9 @@ Human-Action-Recognition/
 Clone the repository:
 
 ```bash
-git clone <YOUR_GITHUB_REPOSITORY_URL>
-cd Human-Action-Recognition
+git clone https://github.com/AkashS2807/human-action-recognition.git
+
+cd human-action-recognition
 ```
 
 Create a virtual environment:
@@ -200,6 +201,18 @@ The evaluation generates:
 Results are stored in the `results/` directory.
 
 ---
+
+## Results
+
+| Model | Test Accuracy |
+|---|---:|
+| Custom CNN | 35.16% |
+| ResNet18 | 60.94% |
+| ViT-Tiny | 42.19% |
+
+ResNet18 achieved the best test accuracy of 60.94% on the current dataset split.
+
+The evaluation results and confusion matrices are available in the `results/` directory.
 
 ## Prediction
 
