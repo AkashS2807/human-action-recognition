@@ -1,0 +1,44 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environment
+venv/
+.venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Machine learning models
+models/*.pth
+models/*.pt
+models/*.onnx
+
+# Large datasets
+data/
+dataset/
+datasets/
+
+# Training outputs
+results/*.csv
+results/*.json
+
+# Temporary files
+*.tmp
+*.temp
+
+# Logs
+*.log
+
+# Streamlit
+.streamlit/secrets.toml

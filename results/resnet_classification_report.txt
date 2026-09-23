@@ -1,0 +1,17 @@
+Model: resnet
+Accuracy: 0.6094
+
+                   precision    recall  f1-score   support
+
+       Basketball       0.00      0.00      0.00        16
+       BenchPress       0.80      1.00      0.89        16
+          Bowling       0.46      0.75      0.57        16
+BoxingPunchingBag       0.83      0.62      0.71        16
+      CricketShot       0.67      1.00      0.80        16
+      HammerThrow       0.94      1.00      0.97        16
+            Punch       0.62      0.31      0.42        16
+      TennisSwing       0.20      0.19      0.19        16
+
+         accuracy                           0.61       128
+        macro avg       0.57      0.61      0.57       128
+     weighted avg       0.57      0.61      0.57       128

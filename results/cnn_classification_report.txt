@@ -1,0 +1,17 @@
+Model: cnn
+Accuracy: 0.3516
+
+                   precision    recall  f1-score   support
+
+       Basketball       0.00      0.00      0.00        16
+       BenchPress       1.00      1.00      1.00        16
+          Bowling       0.00      0.00      0.00        16
+BoxingPunchingBag       1.00      1.00      1.00        16
+      CricketShot       0.00      0.00      0.00        16
+      HammerThrow       0.00      0.00      0.00        16
+            Punch       0.29      0.81      0.43        16
+      TennisSwing       0.00      0.00      0.00        16
+
+         accuracy                           0.35       128
+        macro avg       0.29      0.35      0.30       128
+     weighted avg       0.29      0.35      0.30       128
